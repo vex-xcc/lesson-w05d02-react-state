@@ -156,7 +156,7 @@ Choices:
 **Answer**
 
 Correct Answer: 1
->Explanation: This code is very close to correct. The only thing missing is that the component needs to end with /> to close the tag. Without adding the props, it would look like <Store />
+>Explanation: This code is very close to correct. The only thing missing is that the component needs to end with /> to close the tag. Without adding the props, it would look like `<Store />`
 
 <br><br>
 
