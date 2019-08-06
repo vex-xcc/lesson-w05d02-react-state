@@ -51,7 +51,7 @@ Choices:
 **Answer**
 
 No
->Explanation: No, because the render method can only return one JSX element. To make this valid, the two heading tags need to be wrapped in a single tag. For example, the render method could return a <div> with the <h1> and <h3> elements inside of it
+>Explanation: No, because the render method can only return one JSX element. To make this valid, the two heading tags need to be wrapped in a single tag. For example, the render method could return a `<div>` with the `<h1>` and `<h3>` elements inside of it
 
 <br><br>
 
