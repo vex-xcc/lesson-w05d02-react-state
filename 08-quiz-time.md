@@ -358,7 +358,7 @@ PUT YOUR ANSWER HERE
 
 **Question 15.** 
 
-Is the correct syntax for `map`, if the array is a prop named `Bear`?
+Is the correct syntax for `map`, if the array is a prop named `Juice`?
 
 ```jsx
 const Juices = this.prop.Juice.map((juiceType, index) => {
