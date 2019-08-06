@@ -20,9 +20,10 @@ Choices:
 3. `<p>My favorite ice cream is {props.flavor}!</p>`
 4. `<p>My favorite ice cream is {this.flavor}!</p>`
 
-```
-PUT YOUR ANSWER HERE
-```
+**Answer**
+Correct answer: 1
+>Explanation: You distinguish JavaScript in JSX with curly braces {}. The syntax to refer to the prop is this.props.flavor - which says, "in this file, find a prop, named 'flavor'".
+
 
 <br><br>
 
@@ -46,9 +47,9 @@ Choices:
 1. `Yes`
 2. `No`
 
-```
-PUT YOUR ANSWER HERE
-```
+**Answer**
+No
+>Explanation: No, because the render method can only return one JSX element. To make this valid, the two heading tags need to be wrapped in a single tag. For example, the render method could return a <div> with the <h1> and <h3> elements inside of it
 
 <br><br>
 
@@ -73,11 +74,9 @@ Choices:
 
 4. The `ReactDOM.render` method generates a new element with an ID of root, which it populates with the JSX returned from the `Kangaroos` component. React updates the virtual DOM to have this new element, which the browser sees to dynamically change the page with the new element on it.
 
-
-
-```
-PUT YOUR ANSWER HERE
-```
+**Answer**
+Correct Answer: 1
+>Explanation: The ReactDOM.render method generates a virtual DOM node containing whatever content the Kangaroos component returns, and appends that to the element with an ID of root. Then, React compares the virtual DOM to the regular DOM and updates on the webpage only the elements that have changed.
 
 
 <br><br>
@@ -91,10 +90,9 @@ Choices:
 1. `True`
 2. `False`
 
-```
-PUT YOUR ANSWER HERE
-```
-
+**Answer**
+False 
+>Explanation: Only one default is allowed per file. The default keyword means that if we try to import anything from this file that the app can't find, JavaScript will automatically revert to importing the component exported as default instead. If there are multiple default statements, the app won't know what to do! On a side note, it is best practice to split different components into their own file, so hopefully you won't run into this issue.
 
 
 <br><br>
@@ -111,10 +109,9 @@ Choices:
 3. `create-react-app jungle_maze`
 4. `create-react-app index/jungle_maze.js`
 
-
-```
-PUT YOUR ANSWER HERE
-```
+**Answer**
+Correct Answer: 3
+>Explanation: It's simple to create an app using create-react-app - just call the tool with the name you want for your app. In this case, create-react-app jungle_maze
 
 <br><br>
 
@@ -152,9 +149,9 @@ Choices:
 4. When passing the props into `Store`, the syntax is `this.groceryList.important` and `this.groceryList.spices`
 5. The `buy_me={groceryList.milk}` prop should be `buy_me={groceryList.important}`
 
-```
-PUT YOUR ANSWER HERE
-```
+**Answer**
+Correct Answer: 1
+>Explanation: This code is very close to correct. The only thing missing is that the component needs to end with /> to close the tag. Without adding the props, it would look like <Store />
 
 <br><br>
 
@@ -189,10 +186,10 @@ Choices:
 1. `Yes`
 2. `No`
 
+**Answer**
+Yes
+>Explanation: It is! You can pass JavaScript objects into JSX using {} curly braces. Just as we can add to the JSX the passed in props, we can also add to the JSX the variable allDaisies by putting {allDaisies}
 
-```
-PUT YOUR ANSWER HERE
-```
 
 <br><br>
 
@@ -211,10 +208,10 @@ Choices:
 
 4. In the component class' `render()` method;  you only need it if you are changing any initial configurations for that class.
 
+**Answer**
+Correct Answer: 2
+>Explanation: The constructor is only needed if you're changing initial setup - like setting a state. It is its own method and goes at the top of the component class, not inside the render method.
 
-```
-PUT YOUR ANSWER HERE
-```
 
 <br><br>
 
@@ -234,10 +231,9 @@ Choices:
 
 4. The new state will be passed into the current state of the component. Only the correspondingly elements in the regular DOM tree will update.
 
-
-```
-PUT YOUR ANSWER HERE
-```
+**Answer**
+Correct answer: 1
+>Explanation: setState() first updates the state of the component; this causes the virtual DOM to be updated, which in turn triggers React to compare the virtual DOM and regular DOM. Only the changed elements will update.
 
 <br><br>
 
@@ -254,10 +250,9 @@ Choices:
 1. `prop`
 2. `state`
 
-
-```
-PUT YOUR ANSWER HERE
-```
+**Answer**
+props
+>Explanation: Elements that are passed in to a component are treated as a prop within that component. For dinosaur to be considered a state within Painting, it would need to be a new element declared within Painting's constructor - not passed in to Painting.
 
 <br><br>
 
@@ -288,9 +283,9 @@ Choices:
 
 5. All of the above.
 
-```
-PUT YOUR ANSWER HERE
-```
+**Answer**
+2, 3, and 4 are correct
+
 
 <br><br>
 
@@ -304,9 +299,9 @@ Choices:
 1. `True`
 2. `False`
 
-```
-PUT YOUR ANSWER HERE
-```
+**Answer**
+False
+
 
 <br><br>
 
@@ -324,10 +319,10 @@ Choices:
 
 4. A map is like a `while` loop. With `map`, you make a new variable and with it iterate through each item until you break the loop.
 
+**Answer**
+Correct answer: 3
+>Explanation: Right! We use map to iterate over an array, like a for loop, and perform an action on each item, usually saving this into a new variable.
 
-```
-PUT YOUR ANSWER HERE
-```
 
 <br><br>
 
@@ -350,9 +345,10 @@ Choices:
 3. No - the first line of the function should be `const myDrinks = map( (drinks, index)`
 4. Yes
 
-```
-PUT YOUR ANSWER HERE
-```
+**Answer**
+Yes
+
+
 
 <br><br>
 
@@ -376,9 +372,9 @@ Choices:
 
 4. Yes
 
+**Answer**
+Correct Answer: 1
+>Explanation: It's not, because while all of the map specific syntax is correct, you would call the prop with this.props.Bear - with an s on props.
 
-```
-PUT YOUR ANSWER HERE
-```
 
 <br>
