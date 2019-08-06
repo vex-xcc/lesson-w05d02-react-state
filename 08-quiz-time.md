@@ -155,8 +155,9 @@ Choices:
 
 **Answer**
 
-Correct Answer: 1
->Explanation: This code is very close to correct. The only thing missing is that the component needs to end with /> to close the tag. Without adding the props, it would look like `<Store />`
+Correct Answer: 1, 5
+>Explanation: The component needs to end with /> to close the tag. Without adding the props, it would look like `<Store />`
+>Also, when you're calling an item within an object you should call it by its key not value, so `groceryList.important`
 
 <br><br>
 
