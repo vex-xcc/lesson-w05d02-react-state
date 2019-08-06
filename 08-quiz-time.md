@@ -79,7 +79,6 @@ Choices:
 **Answer**
 
 Correct Answer: 1
->Explanation: The ReactDOM.render method generates a virtual DOM node containing whatever content the Kangaroos component returns, and appends that to the element with an ID of root. Then, React compares the virtual DOM to the regular DOM and updates on the webpage only the elements that have changed.
 
 
 <br><br>
