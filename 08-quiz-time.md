@@ -388,7 +388,7 @@ Choices:
 **Answer**
 
 Correct Answer: 1
->Explanation: It's not, because while all of the map specific syntax is correct, you would call the prop with this.props.Bear - with an s on props.
+>Explanation: It's not, because while all of the map specific syntax is correct, you would call the prop with this.props.Juice - with an `s` on props.
 
 
 <br>
