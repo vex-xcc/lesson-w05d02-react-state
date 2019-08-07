@@ -48,16 +48,6 @@ Here is a lot of documentation to help you choose what you want to do and how to
 * [A list of events React supports](https://facebook.github.io/react/docs/events.html#supported-events)
 * [How to handle events](https://facebook.github.io/react/docs/handling-events.html)
 
-Notice that the "How to handle events" link has an example explaining you must
-explicitly `bind` functions with `this` in order for `this` to remain the same
-inside that function. If you're having trouble calling functions off `this` like
-`this.setState`, take time to consider why this is necessary and see if that leads you to, using the documentation, see how to do it.
-
-```js
-// This binding is necessary to make `this` work in the callback
-this.handleClick = this.handleClick.bind(this);
-```
-
 Revisit the To-Do List project to see how we previously reacted to changing
 input text.
 
