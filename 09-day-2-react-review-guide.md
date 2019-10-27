@@ -99,7 +99,7 @@ const excitedPhrases = phrases.map((phrase, index) => {
 ```js
 constructor(props) {
   // make call to parent class' (Component) constructor
-  super();
+  super(props);
   // define an initial state
   this.state = {
     moodPoints: 1 // initialize this.state.moodPoints to be 1

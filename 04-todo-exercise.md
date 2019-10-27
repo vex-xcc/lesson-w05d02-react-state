@@ -74,7 +74,7 @@ import ReactDOM from 'react-dom';
 import MyList from './MyList';
 import './index.css';
 
-var toDos = ["Buy ice cream", "Eat ice cream", "Go to the gym"]
+const toDos = ["Buy ice cream", "Eat ice cream", "Go to the gym"]
 
 ReactDOM.render(
   <MyList theList={toDos} />,
@@ -225,7 +225,7 @@ import ReactDOM from 'react-dom';
 import MyList from './MyList';
 import './index.css';
 
-var toDos = ["Buy ice cream", "Eat ice cream", "Go to the gym"]
+const toDos = ["Buy ice cream", "Eat ice cream", "Go to the gym"]
 
 ReactDOM.render(
   <MyList theList={toDos} />,

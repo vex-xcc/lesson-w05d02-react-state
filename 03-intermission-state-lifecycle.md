@@ -16,7 +16,7 @@ An example of a Post Component could be seen as follows:
 class Post extends Component {
 
   constructor(props) {
-    super();
+    super(props);
     this.state = {
       body: props.body
     };

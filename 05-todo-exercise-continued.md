@@ -43,7 +43,7 @@ This makes our `MyList` component look like this:
 class MyList extends Component {
 
   constructor(props) {
-    super();
+    super(props);
     this.state = {
       toDoItemArray: props.theList
     };
