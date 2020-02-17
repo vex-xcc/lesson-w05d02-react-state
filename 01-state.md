@@ -21,7 +21,7 @@ Values stored in a component's `state` are mutable attributes.
 * Like props, which we access with `this.props.val`, we can access state values using `this.state.val`
 * Setting up and modifying `state` is not as straightforward as working with props. Instead, it requires multiple methods - explicitly declaring the mutation and then defining methods to define how to update our state.
 
-Let's switch gears back to our `hello_world` project.
+Let's switch gears back to our `hello-world` project.
 
 > Be sure to switch which app is running locally!
 
